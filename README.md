@@ -1,2 +1,2 @@
-# Python-projects
-Python Data science Projects
+# Python for data science
+We utilise libraries such as Numpy, matplotlib, pandas, plotpy, sciPy ,BeatifulSoup for data analysis for large datsets...
