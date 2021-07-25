@@ -1,2 +1,2 @@
-# Python for data science
+# Python for data science & analysis
 We utilise libraries such as Numpy, matplotlib, pandas, plotpy, sciPy ,BeatifulSoup for data analysis for large datsets...
