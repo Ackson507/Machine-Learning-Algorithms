@@ -7,23 +7,14 @@ Let me introduce the basics of building a machine learning model using Python. P
 - Matplotlib and Seaborn: Provides a wide variety of plots, including line plots, scatter plots, bar plots, histograms, and more.
 - Scikit-learn: Scikit-learn is a machine learning library for Python that provides simple and efficient tools for data mining, data analysis and includes various machine learning algorithms for classification, regression, clustering, dimensionality reduction, and more.
 ## Table of Contents
-- [Linear Regression](#linear-regression)
 - [Logistic Regression](#logistic-regression)
+- [Linear Regression](#linear-regression)
 - [Clustering](#clustering)
 
-# Linear Regression
-### Objective of the model
-### Data Collection and Preparation
-### Feature engineering
-### Model Building
-### Selection of algorithm
-### Evaluation
-- Model performance
-- Insights from the results
 
 # Logistic Regression
 ### Objective of the model
-The objective of this model is to predict customer churn for a telecommunications company in order to identify at-risk customers and implement targeted retention strategies. 
+The objective of this model is to predict customer churn for a telecommunications company in order to identify at-risk customers and implement targeted retention strategies. Machine learning model designed to predict whether a customer is likely to stop using a service or product, often referred to as "churn from customer at ZICK Bank.
 ### Data Collection and Preparation
 Data was collected from the company's CRM system and included customer demographics, service usage, and billing information.
 ```python
@@ -32,12 +23,20 @@ import pandas as pd
 import numpy as np
 
 #Data Visualizations
-import matplotlib.pyplot as plt
-plt.rc("font", size=14)
-import seaborn as sns
-sns.set(style="white")
-sns.set(style="whitegrid", color_codes=True)
+Visualizing the number of people that subscribed
+
+sns.countplot(x='Y', data=data, color='red')
+plt.show()
+
+data['Y'].value_counts(normalize=True).mul(100).round(1).astype(str) + '%'
+
+no     88.8%
+yes    11.2%
 ```
+
+![Bar Chart](https://github.com/Ackson507/Machine-Learning-ML-Projects/assets/84422970/77962b83-90ea-4d91-83f1-ad67bf8a6721)
+
+
 
 # Machine learning libs
 ```python
@@ -125,19 +124,33 @@ sns.heatmap(cm, annot=True, cmap='Greens')
 
 cm=confusion_matrix(y_test, pred)
 cm
+```
+![Matrix](https://github.com/Ackson507/Machine-Learning-ML-Projects/assets/84422970/e6be3fe1-5bf0-4abf-bf69-9b193f4dd0a6)
 
-![Matrix](https://github.com/Ackson507/Machine-Learning-ML-Projects/assets/84422970/b53bfcdc-7400-49a8-841e-7f30a571fc20)
 
+```python
 print('Accuracy of the model is:',(4962/5519)*100)
 
 Accuracy of 0.8990
 
-
 ```
-
-
 ### Model Application
+Machine learning model designed to predict whether a customer is likely to stop using a service or product, often referred to as "churn." Churn prediction models are valuable tools for businesses across various industries, including telecommunications, subscription-based services, e-commerce. Below are the uses;Customer Retention Strategies: Businesses can use churn prediction models to identify customers at high risk of churning and implement targeted retention strategies. This may include offering discounts, personalized promotions, or proactive customer support.
 
+- Product Improvement: Insights from churn prediction models can help businesses understand the underlying reasons for churn and make improvements to their product or service. By addressing pain points and enhancing the customer experience, businesses can reduce churn rates.
+- Resource Allocation: Churn prediction models enable businesses to allocate resources more efficiently by focusing efforts on customers with the highest likelihood of churn. This allows businesses to prioritize retention efforts and optimize marketing budgets.
+- Subscription Management: In subscription-based businesses, churn prediction models help forecast future revenue and subscriber counts. By accurately predicting churn, businesses can adjust pricing strategies, subscription terms, and renewal incentives to maximize customer retention.
+- Customer Segmentation: Churn prediction models can be used to segment customers based on their likelihood of churn and tailor marketing campaigns or loyalty programs to different customer segments. This personalized approach improves customer engagement and loyalty.
+
+# Linear Regression
+### Objective of the model
+### Data Collection and Preparation
+### Feature engineering
+### Model Building
+### Selection of algorithm
+### Evaluation
+- Model performance
+- Insights from the results
 
 # Clustering
 ### Objective of the model
