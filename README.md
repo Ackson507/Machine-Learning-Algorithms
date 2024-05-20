@@ -1,5 +1,8 @@
 # Introduction
 Let me introduce the basics of building a machine learning model using Python. Python is widely used in the machine learning community due to its rich ecosystem of libraries and ease of use.
+![Why-is-Python-the-Best-Suited-Programming-Language-for-Machine-Learning](https://github.com/Ackson507/Machine-Learning-ML-Projects/assets/84422970/2d38c43f-cc75-4267-89d8-3049c7ad0afb)
+
+
 - Firstly, we select an IDE which typically includes a source code editor, build automation tools, and a debugger, all integrated into a single user interface used for writing code. In these projects will either use Pycharm or Jupiter Notebooks;
 - Before getting started, ensure you have Python installed on your system along with the required libraries that will be using in our projects such as;
 - Pandas: pandas DataFrame and performing any necessary preprocessing steps such as handling missing values and encoding categorical features
