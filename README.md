@@ -1,5 +1,6 @@
 # Introduction
 Let me introduce this repository which demostrates the building blocks of machine learning model using Python language. Python is widely used in the machine learning community due to its rich ecosystem of libraries and ease of use.
+![1_bO6lRwKN8TlPhEbxNTHhAA](https://github.com/Ackson507/Machine-Learning-Algorithms/assets/84422970/e8898bdc-3987-432d-86a0-31a60b907a6f)
 
 
 - Firstly, I will select a suitable IDE which typically a source code editor good for building automation tools, and a debugger, all integrated into a single user interface used for writing code. In these projects will either use Visual Studio Code APP alongside with Jupiter Notebooks;
